@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bodyWrap">
+        <form id="search-form">
+          <div class="row">
+            <div class="col-2">
+              <input
+                id="submit"
+                type="submit"
+                value="Search"
+                class="form-control search-btn"
+              />
+            </div>
+            <div class="col-10">
+              <input
+                id="search-bar"
+                type="text"
+                placeholder="Search a location.."
+                class="form-control text-bar"
+                autofocus="on"
+              />
+            </div>
+          </div>
+        </form>
+
+        <div class="Wrapper">
+          <div class="row">
+            <div class="col-2">
+              <div class="dateTime">
+                <div id="time">21:50</div>
+                <div id="currentDate">15/10</div>
+              </div>
+            </div>
+            <div class="col-8">
+              <h1>Cheshire</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img src="Images/Sun.png" class="current-icon" /><span
+                class="break"
+                >|</span
+              >
+            </div>
+            <div class="col-6">
+              <div class="temp" id="temp">
+                12<span class="unit-main" id="main-unit">°c</span>
+              </div>
+
+              <ul class="details">
+                <li class="stats">Precipitation: 92%</li>
+                <li class="stats">Humidity: 94%</li>
+                <li class="stats">Wind: 7mph</li>
+              </ul>
+            </div>
+          </div>
+          <div class="weekly">- Predicted Weather Forecast -</div>
+          <div class="row weekly-info">
+            <div class="col-2">
+              <div class="icon-wrap">
+                <img src="Images/rain.png" class="icons" />
+                <div class="days">Mon</div>
+                <div class="temps">17°<span class="unit">c</span></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-wrap">
+                <img src="Images/rain.png" class="icons" />
+                <div class="days">Tue</div>
+                <div class="temps">17°<span class="unit">c</span></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-wrap">
+                <img src="Images/sunnycloud.svg" class="icons" />
+                <div class="days">Wed</div>
+                <div class="temps">17°<span class="unit">c</span></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-wrap">
+                <img src="Images/Sun.png" class="icons" />
+                <div class="days">Thu</div>
+                <div class="temps">17°<span class="unit">c</span></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-wrap">
+                <img src="Images/lighening.svg" class="icons" />
+                <div class="days">Fri</div>
+                <div class="temps">17°<span class="unit">c</span></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-wrap">
+                <img src="Images/rain.png" class="icons" />
+                <div class="days">Sat</div>
+                <div class="temps">17°<span class="unit">c</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="weekly-report">
+          <div class="report-header">Weather Warnings</div>
+          <p class="report">
+            This week there will be sunny spells with rainy downpours, with a
+            high temperature of 19° and a low of 16°.
+          </p>
+        </div>
+        <div class="row buttons">
+          <div class="col-4">
+            <button>Weather Advice</button>
+          </div>
+          <div class="col-4">
+            <button>Local News</button>
+          </div>
+          <div class="col-4">
+            <button>Local Weather</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>

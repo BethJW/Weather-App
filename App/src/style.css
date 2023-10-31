@@ -1,0 +1,157 @@
+.bodyWrap {
+  max-width: 600px;
+  min-width: 600px;
+  margin: 50px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Wrapper {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px auto;
+  padding: 5px;
+  max-width: 600px;
+  min-width: 600px;
+  background-color: rgba(255, 235, 205, 0.541);
+  box-shadow: 3px 3px 10px;
+}
+.search-btn {
+  border: 1px solid black;
+  margin: 5px 5px;
+  background-color: rgb(255, 235, 205);
+  color: black;
+}
+.text-bar {
+  margin: 5px -5px;
+  color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin: 20px 0;
+}
+ul.details {
+  margin-left: 0;
+  padding: 0;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+li.stats {
+  list-style: none;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.dateTime {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+  line-height: 20px;
+}
+.current-icon {
+  margin-top: -25px;
+  width: 150px;
+  float: right;
+}
+.unit-main {
+  position: relative;
+  top: -10px;
+  font-size: 50px;
+}
+.break {
+  float: right;
+  position: relative;
+  left: 160px;
+  line-height: 100px;
+  font-size: 80px;
+  font-weight: lighter;
+}
+.temp {
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+}
+.weekly {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.icons {
+  width: 80px;
+  margin-left: -3px;
+  margin-top: 4px;
+}
+
+.weekly-info {
+  margin: 10px auto;
+  text-align: center;
+}
+.days {
+  margin-top: -5px;
+  font-weight: bold;
+}
+.temps {
+  margin-left: 5px;
+}
+.unit {
+  position: relative;
+  top: -3px;
+}
+.icon-wrap {
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.icon-wrap:hover {
+  background-color: rgb(255, 235, 205);
+}
+.weekly-report {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 235, 205, 0.541);
+  margin-top: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.report-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+.report {
+  margin: 5px 20px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.buttons {
+  margin: 0 125px;
+  text-align: center;
+  padding: 10px;
+}
+button {
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 235, 205);
+}
+.unitConvert {
+  color: black;
+  position: relative;
+  top: -15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#Fahrenheit {
+  color: black;
+}
+#Fahrenheit:hover {
+  color: red;
+}
+#Celcius {
+  color: black;
+}
+#Celcius:hover {
+  color: red;
+}
